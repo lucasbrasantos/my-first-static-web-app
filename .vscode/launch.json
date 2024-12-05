@@ -12,6 +12,14 @@
 				"<node_internals>/**"
 			],
 			"program": "${workspaceFolder}\\src\\App.js"
+		},
+		{
+			"name": "Attach to Node Functions",
+			"type": "node",
+			"request": "attach",
+			"restart": true,
+			"port": 9229,
+			"preLaunchTask": "func: host start"
 		}
 	]
 }
